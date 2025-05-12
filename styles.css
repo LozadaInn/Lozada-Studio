@@ -14,7 +14,7 @@ main {
     display: flex;
     flex-direction: column;
     height: auto;
-    padding: 8vh 5vh;
+    padding: 10vh 5vh;
     z-index: 0;
 }
 
@@ -54,8 +54,8 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2vh 0;
     background-color: #4b538b;
+    margin: 2vh 0;
     color: #fff;
     padding: 2vh;
     border-radius: 1vh;
@@ -99,7 +99,7 @@ footer {
     background-color: #15191d;
     justify-content: center;
     align-items: center;
-    padding: 2vh 0;
+    padding: 2vh 2vh;
     color: #fff;
 
 }
@@ -110,6 +110,12 @@ footer {
         gap: 2vh;
     }
 
+    img {
+        width: 30%;
+        height: 50vh;
+        margin: 0 1vh;
+    }
+}
     img {
         width: 30%;
         height: 50vh;
